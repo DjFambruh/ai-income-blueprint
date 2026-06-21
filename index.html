@@ -91,10 +91,9 @@ text-decoration:none;
 <h1>AI Income Blueprint</h1>
 <p>Premium Learning Platform</p>
 
-<input type="email" placeholder="Email Address">
-<input type="password" placeholder="Password">
 
-<button>Login</button>
+
+
 
 <div class="register">
 Don't have an account?
@@ -102,7 +101,9 @@ Don't have an account?
 </div>
 </div>
 <script>
-alert("Firebase Ready");
+document.getElementById("loginBtn").addEventListener("click", () => {
+    alert("Login Button Working");
+});
 </script>
 </body>
 </html>
